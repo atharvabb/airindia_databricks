@@ -6,21 +6,21 @@ val process_req = dbutils.widgets.get("Layer_Name")
 
 val WorkFlow:Map[String,Map[String,String]] = 
 Map("env_setup"->
-Map("mount_point_create"->"/Workspace/Users/atharvaxa9@gmail.com/utilities/Mount_Point_Creation",
-    "db_table_creation"->"/Workspace/Users/atharvaxa9@gmail.com/utilities/Db_Tables_Creation",
+Map("mount_point_create"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/utilities/Mount_Point_Creation",
+    "db_table_creation"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/utilities/Db_Tables_Creation",
    ),
    "cleaning"->
-Map("api_data_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/Cleaning/Api_Data_Cleaning",
-    "airport_w_can_code"->"/Workspace/Users/atharvaxa9@gmail.com/Cleaning/Airport_w_cancel_code_Cleaning",
-    "city_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/Cleaning/City_Cleaning",
-    "flights_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/Cleaning/Flights_Cleaning",
-    "mysql_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/Cleaning/MySql_Tables_Cleaning",
-    "planes_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/Cleaning/Planes_Cleaning"
+Map("api_data_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Cleaning/Api_Data_Cleaning",
+    "airport_w_can_code"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Cleaning/Airport_w_cancel_code_Cleaning",
+    "city_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Cleaning/City_Cleaning",
+    "flights_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Cleaning/Flights_Cleaning",
+    "mysql_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Cleaning/MySql_Tables_Cleaning",
+    "planes_cleaning"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Cleaning/Planes_Cleaning"
    ),
    "dq_checks"->
-Map("flights_dq_check"->"/Workspace/Users/atharvaxa9@gmail.com/Data_Quality_Checks/Data_Quality_Checks"),
+Map("flights_dq_check"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Data_Quality_Checks/Data_Quality_Checks"),
    "transform"->
-Map("reporting"->"/Workspace/Users/atharvaxa9@gmail.com/Transform/Reporting_7X4_Transformation")
+Map("reporting"->"/Workspace/Users/atharvaxa9@gmail.com/airindia_databricks/Transform/Reporting_7X4_Transformation")
    )
                   
 
